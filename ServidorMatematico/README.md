@@ -14,3 +14,10 @@ loading...
 **4.** Informe a operação no _Output_ de **ClienteUDP** no formato ```operacao:inteiro:inteiro``` por exemplo ```soma:35:7``` <br>
 **5.** Fim! :nerd_face: :tada:
 
+## Output
+<sup>**Cliente**</sup><br>
+![](https://github.com/camylladias/CC6270/blob/main/img/clienteudp.png?raw=true)<br>
+<br>
+<sup>**Servidor**</sup><br>
+![](https://github.com/camylladias/CC6270/blob/main/img/servidorudp.png?raw=true)
+
