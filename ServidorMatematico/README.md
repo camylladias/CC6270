@@ -11,8 +11,9 @@ loading...
 **1.** Abra ambos os projetos **ServidorUDP** e **ClienteUDP** no **NetBeans**<br>
 **2.** Selecione o arquivo ```ServidorUDP.java```, clique em _Clean and Build Project_ e em seguida clique em _Run Project_<br>
 **3.** Selecione o arquivo ```ClienteUDP.java```, clique em _Clean and Build Project_ e em seguida clique em _Run Project_<br>
-**4.** Informe a operação no _Output_ de **ClienteUDP** no formato ```operacao:inteiro:inteiro``` por exemplo ```soma:35:7``` <br>
-**5.** Fim! :nerd_face: :tada:
+**4.** Informe a operação no _Output_ de **ClienteUDP** no formato ```operacao:inteiro:inteiro``` por exemplo ```soma:35:7```<br>
+**5.** Fim! :nerd_face: :tada:<br><br>
+_obs: operações disponíveis: ```soma, subtrai, divide e multiplica```_<br><br>
 
 ## Output
 <sup>**Cliente**</sup><br>
