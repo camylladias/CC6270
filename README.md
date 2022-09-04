@@ -5,21 +5,9 @@
 * Gustavo Velecico  RA 221200447
 
 ## Protocolo
-Para criar o servidor-cliente foi utilizado  o protocolo UDP (User Datagram Protocol) para realizar a conexão e as comunicações necessárias entre cliente e servidor.
+Para criar o servidor-cliente foi utilizado  o protocolo UDP (User Datagram Protocol permite que a aplicação envie um datagrama encapsulado num pacote IPv4 ou IPv6) onde realizamos a conexão e as comunicações necessárias entre cliente e servidor. Os dados são recebidos via input do usuário após rodar a aplicação ```ClienteUDP```, o objeto ```DatagramPacket pacoteMensagem``` é responsável por passar ao ```socket.send``` os bytes da mensagem, tamanho, endereço e porta para que o ```ServidorUDP``` (requisição é recebida através de ```socket.receive```) faça o tratamento dos dados, neste caso a string operação matemática. O tratamento e retorno da operação é feita através do método ```executarOperacao```. Mais uma vez o DatagramPacket é instanciado para enviar o resultado da operação no _Servidor_ para o _Cliente_.
 
-
-
-
-## Tratamento de Strings
-
-Para o servidor conseguir entender a requisição do cliente foi necessário tratar as strings de input do cliente na aplicação do servidor.
-
-
-
-## Realização das operações
-
-O servidor reconhece a string que foi inserida pelo cliente e se essa string conter as palavras soma, subtrai, divide ou multiplica e 2 números. 
-Então o servidor irá encontrar a condição que foi enviada, e realizara a operação em questão.
+_***obs:*** operações disponíveis -> ```soma, subtrai, divide e multiplica```_<br><br>
 
 
 
@@ -30,7 +18,7 @@ Então o servidor irá encontrar a condição que foi enviada, e realizara a ope
 **3.** Selecione o arquivo ```ClienteUDP.java```, clique em _Clean and Build Project_ e em seguida clique em _Run Project_<br>
 **4.** Informe a operação no _Output_ de **ClienteUDP** no formato ```operacao:inteiro:inteiro``` por exemplo ```soma:35:7```<br>
 **5.** Fim! :nerd_face: :tada:<br><br>
-_obs: operações disponíveis: ```soma, subtrai, divide e multiplica```_<br><br>
+
 
 ## Output
 <sup>**Cliente**</sup><br>
